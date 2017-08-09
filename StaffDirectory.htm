@@ -1,0 +1,254 @@
+<html>
+<head>
+<link rel="stylesheet" href="DirectoryCss.css">
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    
+</head>
+<body>
+     <a href="index.htm"><img id="back" src="back.png" alt="back"></a> 
+
+    <h1>Staff Directory</h1>
+    <center><table border="1" width="90%" id="table">
+        <tr>
+            <th>Name</th>
+            <th>Room Number</th>
+        </tr>
+        <tr>
+            <td>Tony Isaac</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>Angie Waugh</td>
+            <td>301</td>
+        </tr>
+        <tr>
+            <td>Tera Clark</td>
+            <td>302</td>
+        </tr>
+        <tr>
+            <td>Robert Mayton</td>
+            <td>304</td>
+        </tr>
+        <tr>
+            <td>Anthony Moore</td>
+            <td>316</td>
+        </tr>
+        <tr>
+            <td>Paul Francis</td>
+            <td>321</td>
+        </tr>
+        <tr>
+            <td>Josh McKinney</td>
+            <td>323</td>
+        </tr>
+        <tr>
+            <td>Debbie Ray</td>
+            <td>103</td>
+        </tr>
+        <tr>
+            <td>Greta Thornsberry</td>
+            <td>107</td>
+        </tr>
+        <tr>
+            <td>Sharon Meyers</td>
+            <td>112</td>
+        </tr>
+        <tr>
+            <td>Lisa Slone</td>
+            <td>114</td>
+        </tr>
+        <tr>
+            <td>Tina Adams</td>
+            <td>115</td>
+        </tr>
+        <tr>
+            <td>Kyle O'Quinn</td>
+            <td>117</td>
+        </tr>
+        <tr>
+            <td>Don Burke</td>
+            <td>118</td>
+        </tr>
+        <tr>
+            <td>Beth Hall</td>
+            <td>119</td>
+        </tr>
+        <tr>
+            <td>Kevin Spurlock</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Bobby Akers</td>
+            <td>121</td>
+        </tr>
+        <tr>
+            <td>Kevin Slone</td>
+            <td>122</td>
+        </tr>
+        <tr>
+            <td>Kyle Yeh</td>
+            <td>139</td>
+        </tr>
+        <tr>
+            <td>Kayla McKinney</td>
+            <td>138</td>
+        </tr>
+        <tr>
+            <td>Lora Smallwood</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Marsha Smith</td>
+            <td>136</td>
+        </tr>
+        <tr>
+            <td>Shawn Hager</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Jody Hall</td>
+            <td>134</td>
+        </tr>
+        <tr>
+            <td>Karen Tackett</td>
+            <td>104</td>
+        </tr>
+        <tr>
+            <td>Annette Martin</td>
+            <td>106</td>
+        </tr>
+    
+        <tr>
+            <td>Brandi Howard</td>
+            <td>108</td>
+        </tr>
+        <tr>
+            <td>Lisa Tackett</td>
+            <td>111</td>
+        </tr>
+        <tr>
+            <td>Jerimiah Back</td>
+            <td>209</td>
+        </tr>
+        <tr>
+            <td>Sandy Warrens</td>
+            <td>210</td>
+        </tr>
+        <tr>
+            <td>Melissa Caudill</td>
+            <td>211</td>
+        </tr>
+        <tr>
+            <td>Regina Parsons</td>
+            <td>212</td>
+        </tr>
+        <tr>
+            <td>Sonya Slone</td>
+            <td>213</td>
+        </tr>
+        <tr>
+            <td>Mary Slone</td>
+            <td>214</td>
+        </tr>
+        <tr>
+            <td>Michelle Sullivan</td>
+            <td>215</td>
+        </tr>
+        <tr>
+            <td>Justin Triplett Hall</td>
+            <td>216</td>
+        </tr>
+        <tr>
+            <td>Kathy Morrison</td>
+            <td>217</td>
+        </tr>
+        <tr>
+            <td>Cortney Kidd</td>
+            <td>218</td>
+        </tr>
+        <tr>
+            <td>Robert Sullivan</td>
+            <td>219</td>
+        </tr>
+        <tr>
+            <td>Lisa Wells</td>
+            <td>221</td>
+        </tr>
+        <tr>
+            <td>Tabitha Berger</td>
+            <td>222</td>
+        </tr>
+        <tr>
+            <td>Jenny Hicks</td>
+            <td>223</td>
+        </tr>
+        <tr>
+            <td>Amy Halbert</td>
+            <td>224</td>
+        </tr>
+        <tr>
+            <td>Christina Crase</td>
+            <td>225</td>
+        </tr>
+        <tr>
+            <td>Sherry Bailey</td>
+            <td>226</td>
+        </tr>
+        <tr>
+            <td>Cynthia Turner</td>
+            <td>227</td>
+        </tr>
+        <tr>
+            <td>Ricky Wells</td>
+            <td>228</td>
+        </tr>
+        <tr>
+            <td>Brenden Ritchie</td>
+            <td>234</td>
+        </tr>
+        <tr>
+            <td>Morgan Ward</td>
+            <td>242</td>
+        </tr>
+    </table></center>
+    <div id="logoDiv"><center><img src="logo.png" alt="logo"></center></div>
+
+
+    <script>
+var table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById("table");
+  switching = true;
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[0];
+      y = rows[i + 1].getElementsByTagName("TD")[0];
+      //check if the two rows should switch place:
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+        //if so, mark as a switch and break the loop:
+        shouldSwitch= true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+</script>
+</body>
+
+
+</html>

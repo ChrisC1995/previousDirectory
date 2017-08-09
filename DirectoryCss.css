@@ -1,0 +1,102 @@
+body {
+
+     background-color: #25252A; 
+  
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: #D8A328;
+    font-size: 45pt;
+    font-family: 'Monoton', cursive;
+    text-shadow: 2px 2px #00d0ff;
+    word-spacing: 15px;
+    margin-right: 6%;
+}
+
+#homeH1 {
+    margin-top: 5%;
+    text-align: center;
+    color: #D8A328;
+    font-size: 43pt;
+    font-family: 'Monoton', cursive;
+    text-shadow: 2px 2px #00d0ff;
+    word-spacing: 15px;
+    margin-left: 5%;
+}
+
+h3 {
+    margin-top: 5%;
+    text-align: center;
+    color: #D8A328;
+    font-size: 35pt;
+    font-family: 'Monoton', cursive;
+    text-shadow: 2px 2px #00d0ff;
+    word-spacing: 15px;
+}
+#back {
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+p{
+    text-align: center;
+}
+button {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    height: 3%;
+    width: 48%;
+    background-color: #00d0ff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #D8A328;
+    font-size: 20pt;
+}
+
+#firstFloorDiv img {
+    height: 40%;
+    width: 80%;
+}
+#logoDiv img {
+    height: 30%;
+    width: 40%;
+}
+#HomeLogoDiv img {
+    height: 70%;
+    width: 90%;
+
+}
+#floydPic {
+    height: 13%;
+    width: 20%;
+}
+
+#steps {
+    height: 40%;
+    width: 5%;
+    margin-left: 2%;
+}
+table {
+    
+    text-align: center;
+    color: white;
+}
+table .absorbing-column {
+    width: 100%;
+}
+
+th {
+    font-size: 20pt;
+    color: #00d0ff;
+    padding: 2%;
+}
+
+td {
+    padding: 2%;
+    font-size: 15pt;
+    color: #D8A328;
+    white-space: nowrap;
+}
