@@ -1,16 +1,16 @@
 body {
 
-     background-color: #25252A; 
+     background-color: #25252A;
+     font-family: 'Zilla Slab', serif;
   
 }
 
 h1 {
     margin-top: 5%;
     text-align: center;
-    color: #D8A328;
-    font-size: 45pt;
-    font-family: 'Monoton', cursive;
-    text-shadow: 2px 2px #00d0ff;
+    color: #127DB8;
+    font-size: 55pt;
+    text-shadow: 2px 2px #CCB25A;
     word-spacing: 15px;
     margin-right: 6%;
 }
@@ -18,10 +18,9 @@ h1 {
 #homeH1 {
     margin-top: 5%;
     text-align: center;
-    color: #D8A328;
-    font-size: 43pt;
-    font-family: 'Monoton', cursive;
-    text-shadow: 2px 2px #00d0ff;
+    color: #CCB25A;
+    font-size: 60pt;
+    text-shadow: 2px 2px #127DB8;
     word-spacing: 15px;
     margin-left: 5%;
 }
@@ -29,10 +28,9 @@ h1 {
 h3 {
     margin-top: 5%;
     text-align: center;
-    color: #D8A328;
-    font-size: 35pt;
-    font-family: 'Monoton', cursive;
-    text-shadow: 2px 2px #00d0ff;
+    color: #CCB25A;
+    font-size: 45pt;
+    text-shadow: 2px 2px #127DB8;
     word-spacing: 15px;
 }
 #back {
@@ -50,14 +48,14 @@ button {
     margin-bottom: 8%;
     height: 3%;
     width: 48%;
-    background-color: #00d0ff;
+    background-color: #127DB8;
     border-radius: 10px;
-    box-shadow: 4px 4px 4px #D8A328;
+    box-shadow: 4px 4px 4px #CCB25A;
     font-size: 20pt;
 }
 
 #firstFloorDiv img {
-    height: 40%;
+    height: 35%;
     width: 80%;
 }
 #logoDiv img {
@@ -66,7 +64,8 @@ button {
 }
 #HomeLogoDiv img {
     height: 70%;
-    width: 90%;
+    width: 87%;
+    margin-top: 10%;
 
 }
 #floydPic {
@@ -97,6 +96,7 @@ th {
 td {
     padding: 2%;
     font-size: 15pt;
-    color: #D8A328;
+    color: #CCB25A;
     white-space: nowrap;
 }
+
